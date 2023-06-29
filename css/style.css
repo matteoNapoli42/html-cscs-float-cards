@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.meet{
+    color: #e53170;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+.centered{
+    text-align: center;
+}
+
+.teamCards>*{
+    margin-top: 3rem;
+    float: left;
+}
+
+.teamCards div{
+    background-color: black;
+    padding-right: 63px;
+}
+
+.photoSize{
+   width : 106px;
+   height: 104px;
+}
+h5{
+    color: white;
+}
+
+.role{
+    color: white;
+}
+
+.emailSetColor{
+    color : lightblue;
+}
