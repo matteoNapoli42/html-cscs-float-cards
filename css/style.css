@@ -1,40 +1,149 @@
+/* General Zone*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.meet{
-    color: #e53170;
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
-}
-.centered{
-    text-align: center;
+body{
+    font-family: 'Fredoka', sans-serif;
+    background-color: white;
 }
 
-.teamCards>*{
-    margin-top: 3rem;
+
+
+/* Utility Zone */
+
+:root{
+    --colorTitle-- : #e74b83;
+    --colorEmail-- : #68bbc7;
+    --colorWhite-- : white;
+}
+
+/* Header Zone*/
+
+h1{
+    text-align: center;
+    color: var(--colorTitle--);
+    padding-top: 3rem;
+}
+
+/* Main Zone */
+
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.row{
+    width: 100%;
+    margin: 3.5rem 0rem;
+}
+
+.col-4{
+    width: calc(100% / 12*4);
     float: left;
 }
 
-.teamCards div{
-    background-color: black;
-    padding-right: 63px;
+.card_img{
+    float: left;
+    width: 35%;
 }
 
-.photoSize{
-   width : 106px;
-   height: 104px;
+.member_information{
+    padding-top: 0.5rem;
+    padding-left: 9rem;
 }
-h5{
+
+span{
     color: white;
 }
 
-.role{
-    color: white;
+.email{
+    color: var(--colorEmail--);
 }
 
-.emailSetColor{
-    color : lightblue;
+#male_1{
+    background-image: url(../img/male1.png);
+    background-size: cover;
+}
+
+#female_1{
+    background-image: url(../img/female1.png);
+    background-size: cover;
+}
+
+#male_2{
+    background-image: url(../img/male2.png);
+    background-size: cover;
+}
+
+#female_2{
+    background-image: url(../img/female2.png);
+    background-size: cover;
+}
+
+#male_3{
+    background-image: url(../img/male3.png);
+    background-size: cover;
+}
+
+#female_3{
+    background-image: url(../img/female3.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* Debug Zone */
+
+.debug #site_header{
+    height: 102px;
+    /*background-color: purple;*/
+}
+
+.debug #site_main{
+    /*background-color: blue;*/
+    height: 951px;
+}
+
+.debug .container{
+    /*background-color: orange;*/
+    height: 100%;
+}
+
+.debug .row{
+    height: 103px;
+    /*background-color: black;*/
+}
+
+.debug .col-4{
+    height: 103px;
+    /*background-color: pink;*/
+}
+
+.debug .card{
+    width: 95%;
+   /* background-color: red;*/
+}
+
+.debug .card_img{
+    /*background-color: black;*/
+    height: 103px;
 }
