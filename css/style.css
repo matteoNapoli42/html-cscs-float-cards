@@ -21,6 +21,7 @@ body{
     --colorWhite-- : white;
 }
 
+
 /* Header Zone*/
 
 h1{
@@ -63,7 +64,7 @@ p{
 
 .member_information{
     padding-top: 0.5rem;
-    padding-left: 9rem;
+    padding-left: 8rem;
 }
 
 span{
